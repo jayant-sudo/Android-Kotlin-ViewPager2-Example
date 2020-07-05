@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#183AB6"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/dicount"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Great Discounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Best discounts on every single we service we offer!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
